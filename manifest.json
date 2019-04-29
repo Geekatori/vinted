@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Vinted",
+	"version": "1.2",
+	"description": "Full resolution images, autoreload, articles count in favicon",
+	"icons": {
+		"48": "icons/vinted-48.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.vinted.fr/*"],
+			"js": ["vintedlify.js", "vintedreload.js", "vintedfavicon.js"]
+		}
+	]
+}
