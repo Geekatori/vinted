@@ -1,0 +1,2 @@
+# vinted
+Firefox extension
